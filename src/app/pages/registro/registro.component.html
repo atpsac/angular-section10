@@ -1,4 +1,4 @@
-<div class="limiter">
+<div class="limiter animated fadeInRight">
   <div class="container-login100">
     <div class="wrap-login100 p-t-50 p-b-90">
       <form
@@ -76,6 +76,7 @@
         <div class="flex-sb-m w-full p-t-3 p-b-24">
           <div class="contact100-form-checkbox">
             <input
+              [(ngModel)]="recordarme"
               class="input-checkbox100"
               id="ckb1"
               type="checkbox"
@@ -87,7 +88,7 @@
           </div>
 
           <div>
-            <a routerLink="/registro" class="txt1">
+            <a routerLink="/login" class="txt1">
               ¿Ya tienes cuenta? / Ingresar
             </a>
           </div>
